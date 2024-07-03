@@ -1,4 +1,4 @@
-# swatlock
+# SWATLock
 
 SWATLock is a proof-of-concept ransomware simulation designed solely for educational purposes. This application simulates the behavior of ransomware, including file encryption, decryption, and deletion sequences, providing a realistic yet controlled environment for learning and testing. This project is intended for cybersecurity research and education only and must not be used maliciously.
 
