@@ -68,7 +68,7 @@ To get started with the SWATLock application:
 
 Clone the Repository:
 
-git clone <repository-url>
+git clone https://github.com/idsin02/swatlock.git
 cd SWATLock
 
 Install Required Dependencies:
