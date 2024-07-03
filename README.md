@@ -57,6 +57,7 @@ Download XAMPP from the official XAMPP website.
 
 Install XAMPP and start the Apache and MySQL services.
 
+
 Configure the Server:
 
 Place the check_stop_signal.php file in the htdocs/cryptlock/includes/api/ directory of your XAMPP installation.
@@ -64,17 +65,21 @@ Place the check_stop_signal.php file in the htdocs/cryptlock/includes/api/ direc
 Update the check_stop_signal.php file with the appropriate database connection settings.
 
 🏗️ Installation
+
 To get started with the SWATLock application:
 
 Clone the Repository:
 
 git clone https://github.com/idsin02/swatlock.git
+
 cd SWATLock
 
 Install Required Dependencies:
+
 pip install -r requirements.txt
 
 Run the Application:
+
 python swatlock.py
 
 
