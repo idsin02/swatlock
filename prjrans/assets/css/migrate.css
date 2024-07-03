@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+.message{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.success{
+    background-color: #e9ffe7;
+    border: 1px solid #3cad00;
+}
+
+.error{
+    background-color: #ffe6e6;
+    border: 1px solid #dc2f02;
+}
+
+.info{
+    background-color: #e7f3ff;
+    border: 1px solid #2196F3;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color: #0056b3;
+}
+

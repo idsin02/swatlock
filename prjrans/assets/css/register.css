@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New',monospace;
+    background-color: #0f0f0f;
+    color: #33ff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login{
+    background-color: #121212;
+    border: 1px solid #0f0;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+.login h2{
+    color: #33ff33;
+    text-align: center;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login form div{
+    margin: 10px 0;
+}
+.login form label{
+    color: #33ff33;
+    margin-bottom: 5px;
+    display: block;
+}
+.login input[type="text"],
+.login input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #1a1a1a;
+    color: #33ff33;
+    border: 1px solid #33ff33;
+    border-radius: 5px;
+}
+.login input[type="submit"],
+.login input[type="reset"]{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #003300;
+    color: #33ff33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login input[type="submit"]:hover,
+.login input[type="reset"]:hover{
+    background-color: #005500;
+}
+
+.login a{
+    color: #33ff33;
+    text-decoration: none;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.login .error{
+    color: #ff3333;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+@media (max-width: 768px){
+    .login{
+        max-width: 90%;
+    }
+}
+
+
+
